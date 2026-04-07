@@ -1,0 +1,22 @@
+{
+  "schema_version": "1",
+  "updated": "2026-04-07",
+  "macros": [
+    {
+      "vendor": "example",
+      "model": "generic",
+      "name": "adaptive_mesh",
+      "version": "1.0.0",
+      "description": "Adaptive bed mesh calibration macro",
+      "file": "example/generic/adaptive_mesh.cfg"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "name": "filament_change",
+      "version": "1.0.0",
+      "description": "Filament change / M600 macro",
+      "file": "example/generic/filament_change.cfg"
+    }
+  ]
+}
