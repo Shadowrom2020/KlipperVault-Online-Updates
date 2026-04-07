@@ -1,0 +1,6 @@
+{
+  "macro_name": "M204",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro M204]\nrename_existing: M99204\ngcode:\n    {% if params.S is defined %}\n        {% set s = params.S|float %}\n    {% endif %}\n    {% if params.P is defined %}\n    {% if params.T is defined %}\n        {% set s = [params.P|float ,params.T|float] | min %}\n    {% endif %}\n    {% endif %}\n\n    SET_VELOCITY_LIMIT ACCEL={s}\n    SET_VELOCITY_LIMIT ACCEL_TO_DECEL={s/2}\n"
+}

@@ -1,0 +1,6 @@
+{
+  "macro_name": "CONDITIONAL_SHUTDOWN",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro CONDITIONAL_SHUTDOWN]\ngcode:\n  {% if printer[\"gcode_macro SET_SHUTDOWN_AFTER_PRINT\"].shutdown == 1 %}\n    M118 \"Shutdown after print selected. Shutting down printer after cooldown.\"\n    TURN_OFF_HEATERS\n    M106 S0\n    TEMPERATURE_WAIT SENSOR=extruder MAXIMUM=50\n    TEMPERATURE_WAIT SENSOR=heater_bed MAXIMUM=50\n    SHUTDOWN\n  {% endif %}\n"
+}

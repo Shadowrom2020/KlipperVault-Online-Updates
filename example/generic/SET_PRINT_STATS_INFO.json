@@ -1,0 +1,6 @@
+{
+  "macro_name": "SET_PRINT_STATS_INFO",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro SET_PRINT_STATS_INFO]\nrename_existing: BASE_SET_PRINT_STATS_INFO_BASE\ngcode:\n    #TIMELAPSE_TAKE_FRAME\n    BASE_SET_PRINT_STATS_INFO_BASE {rawparams}\n    CHAMBER_TEMP_CONTROLLER\n"
+}

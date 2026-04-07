@@ -1,22 +1,318 @@
 {
   "manifest_version": "1",
-  "generated_at": 1775565494,
+  "generated_at": 1775566223,
   "macros": [
     {
       "vendor": "example",
       "model": "generic",
-      "macro_name": "ADAPTIVE_MESH",
-      "path": "example/generic/ADAPTIVE_MESH.json",
-      "version": "1.0.0",
-      "checksum_sha256": "f24d1e3ebc2729dd8b0532bf5f33aeb3b8eda78883878b9f63aa7ad4a94fd413"
+      "macro_name": "_Z_CLEARANCE",
+      "path": "example/generic/_Z_CLEARANCE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "8ddac40a9393ce31dc2e26d02c307a2d1b5cb7ff14981931888fed6a3125b3af"
     },
     {
       "vendor": "example",
       "model": "generic",
-      "macro_name": "FILAMENT_CHANGE",
-      "path": "example/generic/FILAMENT_CHANGE.json",
-      "version": "1.0.0",
-      "checksum_sha256": "3ceebc11d6a3f75f9a114590226d67ad14b354bc9982fb89b71e96a9f0cddc10"
+      "macro_name": "BED_PID_TUNE",
+      "path": "example/generic/BED_PID_TUNE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "e2d1908b2bcecaa16770df8fbe0b1923a55a175fea2f8e6ac716f3cafef9afa4"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "BEEP",
+      "path": "example/generic/BEEP.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "8afcdc525badf70d453142cc739a2bf797cd23c067b4df144ab0dbdc0b36842e"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "beep_off",
+      "path": "example/generic/beep_off.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "9866a3dea7a354d234261d1cfaa6b69bfac90757960adfaaa8d2d46a7791a561"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "beep_on",
+      "path": "example/generic/beep_on.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a1de135e04de5d841abff697d95831d76e1436133f9a0631b6e45a7e4ca5af04"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "CALIBRATE_Z_OFFSET",
+      "path": "example/generic/CALIBRATE_Z_OFFSET.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a1a3d02b87e88cf8fe6524f668d6446c196444bdfa9abc46287ffd004aa8efc6"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "CANCEL_PRINT",
+      "path": "example/generic/CANCEL_PRINT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "c2a1583efec64495ddd0868c104353a6b902138796b8349de6c2a04618571f34"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "CHAMBER_TEMP_CONTROLLER",
+      "path": "example/generic/CHAMBER_TEMP_CONTROLLER.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "afd733375ccdaa131008f64e827b1d23100f1f9d09c17d48878181d009bce292"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "CONDITIONAL_SHUTDOWN",
+      "path": "example/generic/CONDITIONAL_SHUTDOWN.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "f00ec4c1cbc44415dd9f101b47c280139ff7a573cb9024c16c52061296fc4d41"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "G28",
+      "path": "example/generic/G28.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "7118de35c1b7ba78ebbaf41125b0ae8a65a1cbde5c31afcefd7f7580ff4dcabd"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "G29",
+      "path": "example/generic/G29.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "8671d6b56a28422bd818859fc8b45789e1bed5809efaba751bacce4b6f55de41"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "INPUT_SHAPING_CALIBRATE",
+      "path": "example/generic/INPUT_SHAPING_CALIBRATE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "7f6ddf853b008bd35f043e2fe4ca1d5ad78a182d0251264faabfcb5431130eff"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "LEVEL_BED",
+      "path": "example/generic/LEVEL_BED.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "57e60c7e8d0718488eb81b59b42e712d00e2c7df422cc517947ce724fe286d7d"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "LOAD_FILAMENT",
+      "path": "example/generic/LOAD_FILAMENT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "5f372911c7600cb771a344a057eb40aa0d9ed2e64d444bba3aa596fe44dbe788"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "M0",
+      "path": "example/generic/M0.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "d7f55a0ff49e5eb02d9f774eebd6e38a4a7ced65b6fccfdabcc43e5afd70a2f1"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "M106",
+      "path": "example/generic/M106.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "0581e41242970d02ac71413fb042eea056b89ff740d13a9ad58a3d0c05c7d41e"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "M107",
+      "path": "example/generic/M107.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "0f79e2879de6d7eb148c269ccc94d79f0d609a0f15639a54e622d4099d41a128"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "M109",
+      "path": "example/generic/M109.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a92ee04057a158e77d2572b9c0bfc4a0752a11563846c88b87883d51d60c148b"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "M141",
+      "path": "example/generic/M141.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "52a1000c4e544b11281a0011d7676120cc86d96200853c9240aba0901ba21639"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "M191",
+      "path": "example/generic/M191.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "6fc154cbb5734e9e18cf40c755cd51504f8bc815f50ac22f3675df98c78a80c2"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "M204",
+      "path": "example/generic/M204.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "e66fbad3e7a01c9164b39e0793daab71ca729b79baff03d1e2fd712321195fdc"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "M25",
+      "path": "example/generic/M25.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "cc98a5700b90088914f30869cce7ad9a65ff7c7ef190e4e3e5b421d5ffbe7afb"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "M290",
+      "path": "example/generic/M290.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "dfb541725238c809ea1d64ea91e0205f64ecc8155fdf12cc3386ec57a7509b22"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "M303",
+      "path": "example/generic/M303.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "571dc40d6c760b08e330a5bcc860e216e024a8f7e67d510aae8c85bdb50bbed2"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "M8029",
+      "path": "example/generic/M8029.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "d47c3646afaf2c29cb0c10c21cab5179e386fdc8fedb0742dd3b44ec3f26897b"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "M900",
+      "path": "example/generic/M900.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "3c3f1c126ae0b2f864171be026ec2b376de6af577476fe57b89cb52d5b9cb036"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "NEXT_PRINT_STATIC_MESH",
+      "path": "example/generic/NEXT_PRINT_STATIC_MESH.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a92232903cf73000c0b335ecebd35affa0fe3431cc4c9d5f860bc081f83de7b4"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "NOZZLE_PID_TUNE",
+      "path": "example/generic/NOZZLE_PID_TUNE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a6469471125442821937a2ebfeb4983cb0c9cc83809c805fa38c966b72dbdc9d"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "PAUSE",
+      "path": "example/generic/PAUSE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "ebd628b15534d22daf5433b753bf38f0991e1a20b0b8e2f003560f0c637be075"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "POWER_OFF_PRINTER",
+      "path": "example/generic/POWER_OFF_PRINTER.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "af978a6798ea962bcd511fd7f230a5f17724faadbcbd542dc1c8cc57e1b46884"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "PRINT_END",
+      "path": "example/generic/PRINT_END.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "5bcebacb4697291b90a5d228acb91efb6ab7d792f500d74732b70e7976185ca5"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "PRINT_START",
+      "path": "example/generic/PRINT_START.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "eba5106a6ac19bd8403c1724b5362195c151819fa86b91d0dacd5c2515174800"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "RESUME",
+      "path": "example/generic/RESUME.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "938b8e9a560d99a6b2e33ba1ebb4b0e45bdf0c7f8165dead8ab499800db2f99a"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "SET_FILAMENT_TYPE",
+      "path": "example/generic/SET_FILAMENT_TYPE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "e87dbfb2c86c6ecbb676491aa48d85b90612475259f6265ff8bd6f6cd731bf16"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "SET_PRINT_STATS_INFO",
+      "path": "example/generic/SET_PRINT_STATS_INFO.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "3e83b3f22b8cfe6da0634b13924a8adbade512ce9ecdaecb5b0cad7fda1e9ac7"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "SET_SHUTDOWN_AFTER_PRINT",
+      "path": "example/generic/SET_SHUTDOWN_AFTER_PRINT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "205b9e3deb5a780897405d6d7fe9e0ad04792dfdd776a5f4ae37b1f7d79928dd"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "SHAPER_CALIBRATE",
+      "path": "example/generic/SHAPER_CALIBRATE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "0042dc70ff6480c3f12cb37eafbadb341f7770f9b91e41f5216daf5abb4887ee"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "SHUTDOWN",
+      "path": "example/generic/SHUTDOWN.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "4b7eb73516a21bb8a936e57ed413eece117e1ea902b4de553cbbc85314958209"
+    },
+    {
+      "vendor": "example",
+      "model": "generic",
+      "macro_name": "UNLOAD_FILAMENT",
+      "path": "example/generic/UNLOAD_FILAMENT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "f39c7e1dc7d86e568fdd55fa72e7742594829a0108f0045555cf2965953076c3"
     }
   ]
 }

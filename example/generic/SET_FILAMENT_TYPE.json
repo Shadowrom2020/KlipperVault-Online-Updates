@@ -1,0 +1,6 @@
+{
+  "macro_name": "SET_FILAMENT_TYPE",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro SET_FILAMENT_TYPE]\nvariable_filament_type: \"\"\ngcode:\n  # Set a global variable from the input parameter\n  {% set filament = params.FILAMENT_TYPE %}\n  SET_GCODE_VARIABLE MACRO=SET_FILAMENT_TYPE VARIABLE=filament_type VALUE=\"'{filament}'\"\n  M118 Filament set to: {filament}\n"
+}

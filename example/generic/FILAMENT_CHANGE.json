@@ -1,8 +1,0 @@
-{
-  "vendor": "example",
-  "model": "generic",
-  "macro_name": "FILAMENT_CHANGE",
-  "version": "1.0.0",
-  "description": "Filament change / M600 macro",
-  "gcode": "; Filament Change Macro (M600)\n; vendor: example  model: generic  version: 1.0.0\n;\n; Pauses the print, parks the toolhead, and waits for the user to swap\n; filament before resuming.  Requires the [pause_resume] section to be\n; configured in printer.cfg.\n\n[gcode_macro FILAMENT_CHANGE]\ndescription: Pause print and wait for filament swap (M600)\ngcode:\n    {% set X = params.X | default(10) | float %}\n    {% set Y = params.Y | default(10) | float %}\n    {% set Z = params.Z | default(10) | float %}\n    {% set E = params.E | default(100) | float %}\n\n    SAVE_GCODE_STATE NAME=filament_change_state\n    PAUSE\n    G91\n    G1 E-5 F3600           ; retract 5 mm to reduce ooze\n    G1 Z{Z} F900           ; raise nozzle\n    G90\n    G1 X{X} Y{Y} F6000     ; park at purge bucket / front corner\n    G91\n    G1 E-{E} F300          ; unload filament\n    G90\n    M117 Load new filament, then resume\n    RESTORE_GCODE_STATE NAME=filament_change_state MOVE=0\n\n[gcode_macro M600]\ndescription: Filament change (alias for FILAMENT_CHANGE)\ngcode:\n    FILAMENT_CHANGE {rawparams}\n"
-}
