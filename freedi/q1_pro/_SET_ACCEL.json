@@ -1,0 +1,6 @@
+{
+  "macro_name": "_SET_ACCEL",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro _SET_ACCEL]\ngcode:\n    {% set printer_config = printer.configfile.settings['printer'] %}\n    {% set set_acceleration = params.ACCEL|default(printer_config.max_accel)|float %}\n    SET_VELOCITY_LIMIT ACCEL={set_acceleration}\n"
+}

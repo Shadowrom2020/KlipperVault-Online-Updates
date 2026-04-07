@@ -721,6 +721,374 @@
       "path": "freedi/plus4/UNLOAD_FILAMENT.json",
       "version": "2026-04-07",
       "checksum_sha256": "dff902af78c6b4d21ab664cd13fe0f92908f58d9cace3b567a74bb334bfac3c0"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "_BUCKET_CUT",
+      "path": "freedi/q1_pro/_BUCKET_CUT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a20c242abff8b6f21c21dff5a5c5679731d0c4921b5ca212fe48fdceb1e1edd9"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "_FELT_WIPE",
+      "path": "freedi/q1_pro/_FELT_WIPE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "e14135271ef6239774f0c08b34990c665b789f85193c9a531a7b562ceb568eed"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "_SET_ACCEL",
+      "path": "freedi/q1_pro/_SET_ACCEL.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "39a53a256c13328eec40f928f64dfa6e21fb0883ed28d2cb08050df825c609ad"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "_Z_CLEARANCE",
+      "path": "freedi/q1_pro/_Z_CLEARANCE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "8ddac40a9393ce31dc2e26d02c307a2d1b5cb7ff14981931888fed6a3125b3af"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "AUTO_LEVEL_BED",
+      "path": "freedi/q1_pro/AUTO_LEVEL_BED.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "b264b6e006a537bbe253100d59df5fa3641ec5df85a2705c77de6e7950cfe8ec"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "BED_PID_TUNE",
+      "path": "freedi/q1_pro/BED_PID_TUNE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "e2d1908b2bcecaa16770df8fbe0b1923a55a175fea2f8e6ac716f3cafef9afa4"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "BEEP",
+      "path": "freedi/q1_pro/BEEP.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "b32247405ae431beb7f37f6a6a67b5dfcac75a6bd163539913b73ca689647a09"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "beep_off",
+      "path": "freedi/q1_pro/beep_off.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "9866a3dea7a354d234261d1cfaa6b69bfac90757960adfaaa8d2d46a7791a561"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "beep_on",
+      "path": "freedi/q1_pro/beep_on.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a1de135e04de5d841abff697d95831d76e1436133f9a0631b6e45a7e4ca5af04"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "CALIBRATE_Z_OFFSET",
+      "path": "freedi/q1_pro/CALIBRATE_Z_OFFSET.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a1a3d02b87e88cf8fe6524f668d6446c196444bdfa9abc46287ffd004aa8efc6"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "CANCEL_PRINT",
+      "path": "freedi/q1_pro/CANCEL_PRINT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "c2a1583efec64495ddd0868c104353a6b902138796b8349de6c2a04618571f34"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "CHAMBER_TEMP_CONTROLLER",
+      "path": "freedi/q1_pro/CHAMBER_TEMP_CONTROLLER.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "0c8d5107072b8a464da47a5528ef25a4332a0a8a84dc4cfd72100c04567669cd"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "G28",
+      "path": "freedi/q1_pro/G28.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "70faad3b186348d136c3c15690c4c59ad42326287a50928f70be8d4f854eff8a"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "G29",
+      "path": "freedi/q1_pro/G29.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "8c54a6d834ef1aef88136fcc50707ac02739fbdb71457240593be9e7c1b24786"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "GO_TO_POOP_BUCKET",
+      "path": "freedi/q1_pro/GO_TO_POOP_BUCKET.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a67eecc40483904d635a22df53de3e0b0efacce23ddd7bd617c8436ae26acdb8"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "HOME_IF_NEEDED",
+      "path": "freedi/q1_pro/HOME_IF_NEEDED.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a91f5b2b5e14c4e11cd6e0f9e33def783e2707e3a7105be5cca07fe522599597"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "INPUT_SHAPING_CALIBRATE",
+      "path": "freedi/q1_pro/INPUT_SHAPING_CALIBRATE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "7f6ddf853b008bd35f043e2fe4ca1d5ad78a182d0251264faabfcb5431130eff"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "LEAVE_POOP_BUCKET",
+      "path": "freedi/q1_pro/LEAVE_POOP_BUCKET.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "dada4a32d30a5620b1b39dd49fb1026e006618188d998eb6db54a741671c9c95"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "LEVEL_BED",
+      "path": "freedi/q1_pro/LEVEL_BED.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "57e60c7e8d0718488eb81b59b42e712d00e2c7df422cc517947ce724fe286d7d"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "LOAD_FILAMENT",
+      "path": "freedi/q1_pro/LOAD_FILAMENT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "439808bca7a4d3546c0ff4c30b2f94e07af4647d45f1e8750d15f333e64d0c3a"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "M0",
+      "path": "freedi/q1_pro/M0.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "d7f55a0ff49e5eb02d9f774eebd6e38a4a7ced65b6fccfdabcc43e5afd70a2f1"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "M106",
+      "path": "freedi/q1_pro/M106.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "0581e41242970d02ac71413fb042eea056b89ff740d13a9ad58a3d0c05c7d41e"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "M107",
+      "path": "freedi/q1_pro/M107.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "0f79e2879de6d7eb148c269ccc94d79f0d609a0f15639a54e622d4099d41a128"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "M109",
+      "path": "freedi/q1_pro/M109.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a92ee04057a158e77d2572b9c0bfc4a0752a11563846c88b87883d51d60c148b"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "M141",
+      "path": "freedi/q1_pro/M141.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "52a1000c4e544b11281a0011d7676120cc86d96200853c9240aba0901ba21639"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "M191",
+      "path": "freedi/q1_pro/M191.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a12d7487d2a4d7385da46b10173c10f7f16eb0a76c6ccf1455978ddf6e945998"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "M204",
+      "path": "freedi/q1_pro/M204.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "e66fbad3e7a01c9164b39e0793daab71ca729b79baff03d1e2fd712321195fdc"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "M25",
+      "path": "freedi/q1_pro/M25.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "cc98a5700b90088914f30869cce7ad9a65ff7c7ef190e4e3e5b421d5ffbe7afb"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "M290",
+      "path": "freedi/q1_pro/M290.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "dfb541725238c809ea1d64ea91e0205f64ecc8155fdf12cc3386ec57a7509b22"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "M303",
+      "path": "freedi/q1_pro/M303.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "571dc40d6c760b08e330a5bcc860e216e024a8f7e67d510aae8c85bdb50bbed2"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "M8029",
+      "path": "freedi/q1_pro/M8029.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "d10dc3ccc28472e25938cc2b2ce58ff6c69f6a8fe67a63a361a76e150bc398bc"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "M900",
+      "path": "freedi/q1_pro/M900.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "3c3f1c126ae0b2f864171be026ec2b376de6af577476fe57b89cb52d5b9cb036"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "NEXT_PRINT_STATIC_MESH",
+      "path": "freedi/q1_pro/NEXT_PRINT_STATIC_MESH.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a92232903cf73000c0b335ecebd35affa0fe3431cc4c9d5f860bc081f83de7b4"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "NOZZLE_PID_TUNE",
+      "path": "freedi/q1_pro/NOZZLE_PID_TUNE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a6469471125442821937a2ebfeb4983cb0c9cc83809c805fa38c966b72dbdc9d"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "PAUSE",
+      "path": "freedi/q1_pro/PAUSE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "f3da97a3d8ffe13a4dbe99386c79a6f04241617f8398edaa252c30053bd24093"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "PRESET_MACRO_1",
+      "path": "freedi/q1_pro/PRESET_MACRO_1.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "bf4f73e905f13a729b9c8f2574852d6641ca9a290b284e3a3b0e1730ccf8434d"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "PRESET_MACRO_2",
+      "path": "freedi/q1_pro/PRESET_MACRO_2.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "18bb4ba70e973b5c3ba3dd447c164a5f9017f4fe42430bb7547d60375037698b"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "PRESET_MACRO_3",
+      "path": "freedi/q1_pro/PRESET_MACRO_3.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "6cb20f5a0a0ab2d63f3693290d310cb36847e1717acab749719baa737b4df92b"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "PRESET_MACRO_4",
+      "path": "freedi/q1_pro/PRESET_MACRO_4.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "4dbcf219214a42e86d52b25d20c9c79a3634777e531b67246b252aa574d0134b"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "PRIME_NOZZLE",
+      "path": "freedi/q1_pro/PRIME_NOZZLE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "49ac3440e7839d4e952480ca4f2b628656aa798d50896fb74c66e1d27fe5e4cf"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "PRINT_END",
+      "path": "freedi/q1_pro/PRINT_END.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "281958b36744216a24e8f8d4e0297ffc9ca30adf8472f6d5c780129122434e58"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "PRINT_START",
+      "path": "freedi/q1_pro/PRINT_START.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "ad48aa62d1953af5649bf26bfce143bd4ba8ed591f99fb3fc7922a25f347b885"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "RESUME",
+      "path": "freedi/q1_pro/RESUME.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "fac43bfde30bc732399bc7bd343729ba190bce305b79278ddcea3e2979b89def"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "SET_PRINT_STATS_INFO",
+      "path": "freedi/q1_pro/SET_PRINT_STATS_INFO.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "0fbcb81ce3ac3802b6022e44c6c258ec52cef0d5d82dc3b37641ba1e24e61723"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "SHAPER_CALIBRATE",
+      "path": "freedi/q1_pro/SHAPER_CALIBRATE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "0042dc70ff6480c3f12cb37eafbadb341f7770f9b91e41f5216daf5abb4887ee"
+    },
+    {
+      "vendor": "freedi",
+      "model": "q1_pro",
+      "macro_name": "UNLOAD_FILAMENT",
+      "path": "freedi/q1_pro/UNLOAD_FILAMENT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "f37de3c51080fbda77081e44833c70e78f0decdbbe31eb550dbf8d938358e748"
     }
   ]
 }

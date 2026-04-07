@@ -1,0 +1,6 @@
+{
+  "macro_name": "GO_TO_POOP_BUCKET",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro GO_TO_POOP_BUCKET]\ndescription: Move toolhead to poop bucket\ngcode:\n    {% set curr_x = printer.toolhead.position.x %}\n    {% set curr_y = printer.toolhead.position.y %}\n    {% if (curr_y != 240) or (curr_x != 97) %}\n        _Z_CLEARANCE DISTANCE=0 MIN_Z=40                                                                               ; Make sure to have enough clearance\n        G90                                                                                                            ; Absolute positioning\n        {% if printer.gcode_move.position.y > 240 %}\n            G1 Y240 F9000\n        {% endif %}\n        G1 X97 Y240 F9000\n        _SET_ACCEL ACCEL=100                                                                                           ; Reduce acceleration to 100mm/s^2\n        G1 Y254 F1500                                                                                                  ; gently press against wiper arm\n        _SET_ACCEL                                                                                                     ; Reset acceleration\n    {% endif %}\n"
+}

@@ -1,0 +1,6 @@
+{
+  "macro_name": "G29",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro G29]\nvariable_k: 1\ngcode:\n    {% set temp = printer[\"heater_generic chamber\"].target %}\n      M141 S0\n    {% if temp > 0 %}\n      G4 P15000\n    {% endif %}\n\n    {% if k|int==1 %}\n        BED_MESH_CLEAR                                                                                           ; Clear levelling data\n        BED_MESH_CALIBRATE ADAPTIVE=1 ADAPTIVE_MARGIN=5                                                          ; Start adaptive meshing\n    {% endif %}   \n    M141 S{temp} \n"
+}

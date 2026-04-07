@@ -1,0 +1,6 @@
+{
+  "macro_name": "_BUCKET_CUT",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro _BUCKET_CUT]\ndescription: Cut off the extruded filament on the nozzle\ngcode:\n    {% set i = 6 %}\n    {% for iteration in range(i|int) %}\n        G1 X85 F2000\n        G1 X97 F2000\n    {% endfor %}\n"
+}

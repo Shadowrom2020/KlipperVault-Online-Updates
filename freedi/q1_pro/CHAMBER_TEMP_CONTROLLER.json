@@ -1,0 +1,6 @@
+{
+  "macro_name": "CHAMBER_TEMP_CONTROLLER",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro CHAMBER_TEMP_CONTROLLER]\ngcode:\n    {% set chamber_cfg = printer.configfile.settings['heater_generic chamber'] %}\n    {% set chamber_target_temp = printer['heater_generic chamber'].target %}\n    {% set chamber_temp = printer['heater_generic chamber'].temperature %}\n    {% set min_filterfan = (255 * 0.40) | int %}  # ~35 % Mindestdrehzahl\n    \n    {% if chamber_temp > chamber_cfg.max_temp %}\n        M106 P3 S255\n    {% elif chamber_target_temp > 0 %}\n        {% set difference = chamber_temp - (chamber_target_temp + 3) %}\n        {% set raw_speed = ([(difference * 50), 255] | min) | int %}\n        {% set filterfan_speed = [raw_speed, min_filterfan] | max %}\n        M106 P3 S{filterfan_speed}\n    {% else %}\n        M106 P3 S0\n    {% endif %}\n"
+}

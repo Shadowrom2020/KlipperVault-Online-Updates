@@ -1,0 +1,6 @@
+{
+  "macro_name": "PRIME_NOZZLE",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro PRIME_NOZZLE]\ndescription: Primes the nozzle with fresh filament before load/unload/print start\ngcode:\n    {% set hotend_target_temp = params.HOTEND_TARGET_TEMP|default(220)|int %}\n    \n    M106 S0\n    M104 S{hotend_target_temp}\n\n    HOME_IF_NEEDED\n\n    TEMPERATURE_WAIT SENSOR=extruder MINIMUM={hotend_target_temp-50}\n    GO_TO_POOP_BUCKET\n\n    M109 S{hotend_target_temp}\n\n    G92 E0\n    G1 E5 F50\n    G1 E50 F200\n    G92 E0\n    G1 E-0.8 F200\n    G4 P300\n\n   \n    M104 S{([hotend_target_temp-80, 150]|min)} \n    M106 S255\n    G4 P5000\n\n    _FELT_WIPE\n    TEMPERATURE_WAIT SENSOR=extruder MAXIMUM={([hotend_target_temp-80, 150]|min)}\n    M106 S0\n\n    _BUCKET_CUT\n    LEAVE_POOP_BUCKET\n"
+}

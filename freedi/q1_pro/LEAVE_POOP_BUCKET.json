@@ -1,0 +1,6 @@
+{
+  "macro_name": "LEAVE_POOP_BUCKET",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro LEAVE_POOP_BUCKET]\ndescription: Leaving the poop bucket\ngcode:\n    {% set curr_x = printer.toolhead.position.x %}\n    {% set curr_y = printer.toolhead.position.y %}\n    {% if (curr_y >= 240) and (curr_x >= 59) and (curr_x <= 98) %}\n        G90                                                                                                         ; Absolute positioning\n        _SET_ACCEL ACCEL=500\n        G1 Y254 F2000\n        G1 X70 F5000\n        _SET_ACCEL ACCEL=100\n        G1 Y240 F1500                                                                                               ; gently leave the wiper arm\n        _SET_ACCEL                                                                                                  ; reset accel\n    {% endif %}\n"
+}
