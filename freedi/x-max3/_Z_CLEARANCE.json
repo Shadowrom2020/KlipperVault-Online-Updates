@@ -1,0 +1,6 @@
+{
+  "macro_name": "_Z_CLEARANCE",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro _Z_CLEARANCE]\ndescription: Lower the bed to give some clearance\nvariable_default_distance: 40.0\ngcode:\n    {% set current_z_height = printer.toolhead.position.z %}\n    {% set max_z_height = printer.toolhead.axis_maximum.z %}\n    {% set distance = params.DISTANCE|default(variable_default_distance)|float %}\n    {% set target_z_height = current_z_height + distance %}\n\n    {% set min_z_param = params.MIN_Z|default(None) %}\n    {% if min_z_param is not none %}\n        {% set min_z = min_z_param|float %}\n        {% if target_z_height < min_z %}\n            {% set target_z_height = min_z %}\n        {% endif %}\n    {% endif %}\n\n    G90                                                                                                            ; Absolute positioning\n    G1 Z{ [target_z_height, max_z_height]|min }\n"
+}
