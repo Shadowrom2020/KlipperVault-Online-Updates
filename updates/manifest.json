@@ -1,0 +1,22 @@
+{
+  "schema_version": "1",
+  "updated": "2026-04-07",
+  "macros": [
+    {
+      "vendor": "generic",
+      "model": "bed_leveling",
+      "name": "adaptive_mesh",
+      "version": "1.0.0",
+      "description": "Adaptive bed mesh calibration macro",
+      "file": "updates/generic/bed_leveling/adaptive_mesh.cfg"
+    },
+    {
+      "vendor": "generic",
+      "model": "filament",
+      "name": "filament_change",
+      "version": "1.0.0",
+      "description": "Filament change / M600 macro",
+      "file": "updates/generic/filament/filament_change.cfg"
+    }
+  ]
+}
