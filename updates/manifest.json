@@ -1,22 +1,22 @@
 {
-  "schema_version": "1",
-  "updated": "2026-04-07",
+  "manifest_version": "1",
+  "generated_at": 1775565494,
   "macros": [
     {
       "vendor": "example",
       "model": "generic",
-      "name": "adaptive_mesh",
+      "macro_name": "ADAPTIVE_MESH",
+      "path": "example/generic/ADAPTIVE_MESH.json",
       "version": "1.0.0",
-      "description": "Adaptive bed mesh calibration macro",
-      "file": "example/generic/adaptive_mesh.cfg"
+      "checksum_sha256": "f24d1e3ebc2729dd8b0532bf5f33aeb3b8eda78883878b9f63aa7ad4a94fd413"
     },
     {
       "vendor": "example",
       "model": "generic",
-      "name": "filament_change",
+      "macro_name": "FILAMENT_CHANGE",
+      "path": "example/generic/FILAMENT_CHANGE.json",
       "version": "1.0.0",
-      "description": "Filament change / M600 macro",
-      "file": "example/generic/filament_change.cfg"
+      "checksum_sha256": "3ceebc11d6a3f75f9a114590226d67ad14b354bc9982fb89b71e96a9f0cddc10"
     }
   ]
 }
