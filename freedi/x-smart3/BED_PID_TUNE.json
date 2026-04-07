@@ -1,0 +1,6 @@
+{
+  "macro_name": "BED_PID_TUNE",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro BED_PID_TUNE]\ndescription: \"Perform PID tuning for the bed heater\"\ngcode:\n    PID_CALIBRATE HEATER=heater_bed TARGET=80                                                                   ; PID tune the bed\n"
+}

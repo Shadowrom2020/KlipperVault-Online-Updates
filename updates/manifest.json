@@ -1697,6 +1697,286 @@
       "path": "freedi/x-plus3/UNLOAD_FILAMENT.json",
       "version": "2026-04-07",
       "checksum_sha256": "f39c7e1dc7d86e568fdd55fa72e7742594829a0108f0045555cf2965953076c3"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "_Z_CLEARANCE",
+      "path": "freedi/x-smart3/_Z_CLEARANCE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "8ddac40a9393ce31dc2e26d02c307a2d1b5cb7ff14981931888fed6a3125b3af"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "BED_PID_TUNE",
+      "path": "freedi/x-smart3/BED_PID_TUNE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "e2d1908b2bcecaa16770df8fbe0b1923a55a175fea2f8e6ac716f3cafef9afa4"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "BEEP",
+      "path": "freedi/x-smart3/BEEP.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "b32247405ae431beb7f37f6a6a67b5dfcac75a6bd163539913b73ca689647a09"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "beep_off",
+      "path": "freedi/x-smart3/beep_off.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "9866a3dea7a354d234261d1cfaa6b69bfac90757960adfaaa8d2d46a7791a561"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "beep_on",
+      "path": "freedi/x-smart3/beep_on.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a1de135e04de5d841abff697d95831d76e1436133f9a0631b6e45a7e4ca5af04"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "CALIBRATE_Z_OFFSET",
+      "path": "freedi/x-smart3/CALIBRATE_Z_OFFSET.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a1a3d02b87e88cf8fe6524f668d6446c196444bdfa9abc46287ffd004aa8efc6"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "CANCEL_PRINT",
+      "path": "freedi/x-smart3/CANCEL_PRINT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "c2a1583efec64495ddd0868c104353a6b902138796b8349de6c2a04618571f34"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "G28",
+      "path": "freedi/x-smart3/G28.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "27095431d795337434dda1fdd54ce49628445ec9ed3267ebfa03bf0bbd0fa995"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "G29",
+      "path": "freedi/x-smart3/G29.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "8671d6b56a28422bd818859fc8b45789e1bed5809efaba751bacce4b6f55de41"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "INPUT_SHAPING_CALIBRATE",
+      "path": "freedi/x-smart3/INPUT_SHAPING_CALIBRATE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "7f6ddf853b008bd35f043e2fe4ca1d5ad78a182d0251264faabfcb5431130eff"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "LEVEL_BED",
+      "path": "freedi/x-smart3/LEVEL_BED.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "fd61d8df26ef4c1d60473d9f90cddbcbc1fd1a1e031757113f1085d53c159803"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "LOAD_FILAMENT",
+      "path": "freedi/x-smart3/LOAD_FILAMENT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "1ac39c759aac65ad5f1e86f24d71ddc22c62ad1868d48ed68d9fe3ec57b5e9da"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "M0",
+      "path": "freedi/x-smart3/M0.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "d7f55a0ff49e5eb02d9f774eebd6e38a4a7ced65b6fccfdabcc43e5afd70a2f1"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "M106",
+      "path": "freedi/x-smart3/M106.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "c6db830a7b3c6b56efa27c97c8e8d5e6c981a70dc9fbaac0d6e8fb565323e90c"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "M107",
+      "path": "freedi/x-smart3/M107.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "0f79e2879de6d7eb148c269ccc94d79f0d609a0f15639a54e622d4099d41a128"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "M109",
+      "path": "freedi/x-smart3/M109.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "3aabdf62e71afe16810366085477b5d7fd4cf9d6eb5315feebb3fd54a4feb756"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "M204",
+      "path": "freedi/x-smart3/M204.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "e66fbad3e7a01c9164b39e0793daab71ca729b79baff03d1e2fd712321195fdc"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "M25",
+      "path": "freedi/x-smart3/M25.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "cc98a5700b90088914f30869cce7ad9a65ff7c7ef190e4e3e5b421d5ffbe7afb"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "M290",
+      "path": "freedi/x-smart3/M290.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "dfb541725238c809ea1d64ea91e0205f64ecc8155fdf12cc3386ec57a7509b22"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "M303",
+      "path": "freedi/x-smart3/M303.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "571dc40d6c760b08e330a5bcc860e216e024a8f7e67d510aae8c85bdb50bbed2"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "M8029",
+      "path": "freedi/x-smart3/M8029.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "d47c3646afaf2c29cb0c10c21cab5179e386fdc8fedb0742dd3b44ec3f26897b"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "M900",
+      "path": "freedi/x-smart3/M900.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "3c3f1c126ae0b2f864171be026ec2b376de6af577476fe57b89cb52d5b9cb036"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "NEXT_PRINT_STATIC_MESH",
+      "path": "freedi/x-smart3/NEXT_PRINT_STATIC_MESH.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a92232903cf73000c0b335ecebd35affa0fe3431cc4c9d5f860bc081f83de7b4"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "NOZZLE_PID_TUNE",
+      "path": "freedi/x-smart3/NOZZLE_PID_TUNE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a6469471125442821937a2ebfeb4983cb0c9cc83809c805fa38c966b72dbdc9d"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "PAUSE",
+      "path": "freedi/x-smart3/PAUSE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "aa01095746167cbf8aec06064a6c10fd1b8486f94ef1f052c5f5a5c84c96d2b7"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "PRESET_MACRO_1",
+      "path": "freedi/x-smart3/PRESET_MACRO_1.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "bf4f73e905f13a729b9c8f2574852d6641ca9a290b284e3a3b0e1730ccf8434d"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "PRESET_MACRO_2",
+      "path": "freedi/x-smart3/PRESET_MACRO_2.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "18bb4ba70e973b5c3ba3dd447c164a5f9017f4fe42430bb7547d60375037698b"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "PRESET_MACRO_3",
+      "path": "freedi/x-smart3/PRESET_MACRO_3.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "6cb20f5a0a0ab2d63f3693290d310cb36847e1717acab749719baa737b4df92b"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "PRESET_MACRO_4",
+      "path": "freedi/x-smart3/PRESET_MACRO_4.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "4dbcf219214a42e86d52b25d20c9c79a3634777e531b67246b252aa574d0134b"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "PRINT_END",
+      "path": "freedi/x-smart3/PRINT_END.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a764a53269f4ac062ad0e85a2d1d5ce2df32d8a9bac9202f954c5977444fc42f"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "PRINT_START",
+      "path": "freedi/x-smart3/PRINT_START.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "6216db5d88fab734260777e0e17f048b4502d4dfe4d148a9cc3f8838d7539942"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "RESUME",
+      "path": "freedi/x-smart3/RESUME.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "14f83072cb3204b0f7761005a9931b3322db4d261a98184e68607283dfd17f85"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "SET_PRINT_STATS_INFO",
+      "path": "freedi/x-smart3/SET_PRINT_STATS_INFO.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "d0d6b331ccbcddfdf24a7a8e4ae5f40d3e66e92c60e4867dc8775d7f4d94f531"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "SHAPER_CALIBRATE",
+      "path": "freedi/x-smart3/SHAPER_CALIBRATE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "0042dc70ff6480c3f12cb37eafbadb341f7770f9b91e41f5216daf5abb4887ee"
+    },
+    {
+      "vendor": "freedi",
+      "model": "x-smart3",
+      "macro_name": "UNLOAD_FILAMENT",
+      "path": "freedi/x-smart3/UNLOAD_FILAMENT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a395d632d53e97ad25d2ea752fd2e576b98df6436d1196afab8181e43947080e"
     }
   ]
 }

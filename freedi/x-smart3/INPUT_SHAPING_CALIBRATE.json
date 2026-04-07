@@ -1,0 +1,6 @@
+{
+  "macro_name": "INPUT_SHAPING_CALIBRATE",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro INPUT_SHAPING_CALIBRATE]\ndescription: \"Perform Input Shaping calibration and save the results to printer.cfg\"\ngcode:\n    SHAPER_CALIBRATE                                                                                            ; Step 1: Perform the Input Shaping calibration\n    PAUSE                                                                                                       ; Step 2: Pause to allow the calibration to complete\n    SAVE_CONFIG                                                                                                 ; Step 3: Save the configuration to printer.cfg\n    RESTART                                                                                                     ; Step 4: Restart the firmware to apply the new settings\n"
+}
