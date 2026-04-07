@@ -10,9 +10,9 @@ This repo **only** hosts macro update data — it is **not** the KlipperVault ap
 ```
 updates/
   manifest.json               ← index of all available macros
-  <vendor>/
-    <model>/
-      <macro_name>.cfg        ← Klipper macro file
+<vendor>/
+  <model>/
+    <macro_name>.cfg          ← Klipper macro file
 ```
 
 ### Example
@@ -20,11 +20,11 @@ updates/
 ```
 updates/
   manifest.json
-  generic/
-    bed_leveling/
-      adaptive_mesh.cfg
-    filament/
-      filament_change.cfg
+generic/
+  bed_leveling/
+    adaptive_mesh.cfg
+  filament/
+    filament_change.cfg
 ```
 
 ---
@@ -54,7 +54,7 @@ Each entry in `macros`:
 
 ## Adding a new macro
 
-1. Create the macro file at `updates/<vendor>/<model>/<name>.cfg`.
+1. Create the macro file at `<vendor>/<model>/<name>.cfg`.
 2. Add a corresponding entry to `updates/manifest.json`.
 3. Bump the `updated` field in the manifest to today's date.
 4. Open a pull request.
