@@ -3,20 +3,20 @@
   "updated": "2026-04-07",
   "macros": [
     {
-      "vendor": "generic",
-      "model": "bed_leveling",
+      "vendor": "example",
+      "model": "generic",
       "name": "adaptive_mesh",
       "version": "1.0.0",
       "description": "Adaptive bed mesh calibration macro",
-      "file": "generic/bed_leveling/adaptive_mesh.cfg"
+      "file": "example/generic/adaptive_mesh.cfg"
     },
     {
-      "vendor": "generic",
-      "model": "filament",
+      "vendor": "example",
+      "model": "generic",
       "name": "filament_change",
       "version": "1.0.0",
       "description": "Filament change / M600 macro",
-      "file": "generic/filament/filament_change.cfg"
+      "file": "example/generic/filament_change.cfg"
     }
   ]
 }

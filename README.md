@@ -20,10 +20,9 @@ updates/
 ```
 updates/
   manifest.json
-generic/
-  bed_leveling/
+example/
+  generic/
     adaptive_mesh.cfg
-  filament/
     filament_change.cfg
 ```
 
@@ -43,8 +42,8 @@ Each entry in `macros`:
 
 | Field | Type | Description |
 |---|---|---|
-| `vendor` | string | Hardware vendor identifier (e.g. `"generic"`, `"creality"`) |
-| `model` | string | Printer model or macro category (e.g. `"bed_leveling"`) |
+| `vendor` | string | Hardware vendor identifier (e.g. `"creality"`, `"bambu"`) |
+| `model` | string | Printer model identifier (e.g. `"ender3"`, `"x1c"`) |
 | `name` | string | Unique macro name within vendor/model |
 | `version` | string | Semantic version of the macro file |
 | `description` | string | Human-readable description |
