@@ -1,0 +1,6 @@
+{
+  "macro_name": "M8029",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro M8029]\ngcode:\n     {% if params.D is defined %}\n       {% if (params.D|int)==1 %} \n        SET_FILAMENT_SENSOR SENSOR=filament_tangle_sensor ENABLE=1\n       {% endif %}\n       {% if (params.D|int)==0 %} \n        SET_FILAMENT_SENSOR SENSOR=filament_tangle_sensor ENABLE=0\n       {% endif %}\n     {% endif %}\n"
+}

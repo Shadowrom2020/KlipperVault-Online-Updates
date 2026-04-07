@@ -1,0 +1,6 @@
+{
+  "macro_name": "SCREWS_TILT_CALCULATE",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro SCREWS_TILT_CALCULATE]\nrename_existing: BASE_SCREWS_TILT_CALCULATE_BASE\ngcode:\n    { action_respond_info(\"starting screw rotation calculation...\") }\n    M141 S0             # disable chamber heater (see https://github.com/qidi-community/Plus4-Wiki/tree/main/content/chamber-heater-issue)\n    BASE_SCREWS_TILT_CALCULATE_BASE\n"
+}

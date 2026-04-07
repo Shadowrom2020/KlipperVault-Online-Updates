@@ -1,0 +1,6 @@
+{
+  "macro_name": "CALIBRATE_Z_OFFSET",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro CALIBRATE_Z_OFFSET]\ndescription: \"Calibrate the Z offset using the probe\"\ngcode:\n    {% set max_x = printer.configfile.config[\"stepper_x\"][\"position_max\"]|float %}\n    {% set max_y = printer.configfile.config[\"stepper_y\"][\"position_max\"]|float %}\n\n    G28                                                                                                         ; Home all\n    G0 Z10                                                                                                      ; Increase z clearance\n    G0 X{max_x/2} Y{max_y-40} F6000                                                                             ; Move to bed center \n    PROBE_CALIBRATE                                                                                             ; Perform a probe calibration\n"
+}

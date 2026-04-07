@@ -1,0 +1,6 @@
+{
+  "macro_name": "NEXT_PRINT_STATIC_MESH",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro NEXT_PRINT_STATIC_MESH]\ndescription: Forces the NEXT print to use 'STATIC_MESH' instead of KAMP.\ngcode:\n    {% if \"STATIC_MESH\" in printer.bed_mesh.profiles %}\n        SET_GCODE_VARIABLE MACRO=PRINT_START VARIABLE=force_static_mesh VALUE=True\n        {action_respond_info(\"The NEXT print will use 'STATIC_MESH'.\")}\n        M118 The NEXT print will use the STATIC_MESH.\n    {% else %}\n        {action_respond_info(\"WARNING: No mesh named 'STATIC_MESH' found. Please save one first (BED_MESH_PROFILE SAVE=STATIC_MESH).\")}\n        M118 WARNING: No mesh named STATIC_MESH found. Please save one first (BED_MESH_PROFILE SAVE=STATIC_MESH).\n    {% endif %}\n"
+}

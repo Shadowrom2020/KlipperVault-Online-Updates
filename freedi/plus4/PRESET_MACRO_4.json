@@ -1,0 +1,6 @@
+{
+  "macro_name": "PRESET_MACRO_4",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro PRESET_MACRO_4]\ngcode:\n    M104 S250                                                         ; Set extruder temp\n    M140 S40                                                          ; Set bed temp\n    M141 S0                                                           ; Set chamber temp\n"
+}

@@ -1,0 +1,6 @@
+{
+  "macro_name": "DISABLE_ALL_SENSOR",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro DISABLE_ALL_SENSOR]\ngcode:\n    SET_FILAMENT_SENSOR SENSOR=filament_tangle_sensor ENABLE=0\n    DISABLE_FILAMENT_WIDTH_SENSOR\n"
+}

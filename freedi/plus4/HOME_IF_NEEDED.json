@@ -1,0 +1,6 @@
+{
+  "macro_name": "HOME_IF_NEEDED",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro HOME_IF_NEEDED]\ndescription: Homes X and Y if needed\ngcode:\n    {% if \"y\" not in printer.toolhead.homed_axes %}\n        G28 Y\n    {% endif %}\n    {% if \"x\" not in printer.toolhead.homed_axes %}\n        G28 X\n    {% endif %}\n    {% if \"z\" not in printer.toolhead.homed_axes %}\n        G28 Z\n    {% endif %}\n"
+}

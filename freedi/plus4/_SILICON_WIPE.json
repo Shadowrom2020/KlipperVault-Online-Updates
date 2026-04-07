@@ -1,0 +1,6 @@
+{
+  "macro_name": "_SILICON_WIPE",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro _SILICON_WIPE]\ndescription: Wipe on the silicon pad with custom min and max coordinates and margin\ngcode:\n    G90\n    {% if (printer.gcode_move.position.y) > 300 %}\n      G1 Y300 F600      \n    {% endif %}\n\n    G1 X95 F12000\n    G1 Y314 F9000\n    G1 Y324 F600\n\n    ; Wipe movements in X direction\n    G1 X58 F12000\n    G1 X78 F12000\n    G1 Y324\n    G1 X58 F12000\n    G1 X78 F12000\n    G1 Y323.5\n    G1 X58 F12000\n    G1 X78 F12000\n    G1 Y323\n    G1 X58 F12000\n    G1 X78 F12000\n    G1 Y322.5\n    G1 X58 F12000\n    G1 X78 F12000\n    G1 Y322\n    G1 X58 F12000\n    G1 X75 F12000\n    G1 Y321.5\n\n    ; Wipe movements in circles\n    G2 I0.8 J0.8 F600\n    G2 I0.8 J0.8 F600\n    G2 I0.8 J0.8 F600\n\n    G1 Y324 F600\n    G1 X95 F12000\n"
+}

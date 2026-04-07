@@ -1,0 +1,6 @@
+{
+  "macro_name": "M604",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro M604]\ndescription: Load filament with priming nozzle\ngcode:\n    {% set hotend_target_temp = params.S|default(250)|int %}\n    {% set accel = printer.toolhead.max_accel|int %}\n    \n    M104 S{hotend_target_temp}\n\n    HOME_IF_NEEDED\n    M204 S10000\n    PRIME_NOZZLE hotend_target_temp={hotend_target_temp}\n\n    M106 S0\n    M400\n    M204 S{accel}\n    M118 Load finished\n"
+}

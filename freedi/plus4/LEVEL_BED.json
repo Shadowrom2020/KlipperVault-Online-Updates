@@ -1,0 +1,6 @@
+{
+  "macro_name": "LEVEL_BED",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro LEVEL_BED]\ndescription: \"Measure bed and calculate screw adjustments for manual bed leveling\"\ngcode:\n    G28                                                                                                         ; Home all\n    SCREWS_TILT_CALCULATE                                                                                       ; Perform measurements and output screw adjustments\n"
+}

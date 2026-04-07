@@ -1,0 +1,6 @@
+{
+  "macro_name": "GO_TO_POOP_SHOOT",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro GO_TO_POOP_SHOOT]\ndescription: Move toolhead to poop shoot\ngcode:\n    HOME_IF_NEEDED\n\n    G90\n    {% if printer.gcode_move.position.y > 300 %}\n      G1 Y300 F9000\n    {% endif %}\n\n    G1 X95 Y312 F12000\n    G1 Y316 F600\n    G1 Y320 F9000\n    G1 Y324 F600\n"
+}

@@ -1,0 +1,6 @@
+{
+  "macro_name": "M603",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro M603]\ndescription: Unload filament with cutting filament\ngcode:\n    {% set hotend_target_temp = params.S|default(220)|int %}\n    {% set accel = printer.toolhead.max_accel|int %}\n    \n\tM104 S{hotend_target_temp}\n    \n    HOME_IF_NEEDED\n    M204 S10000\n    CUT_FILAMENT\n    \n    M106 S0\n    M400\n    M204 S{accel}\n    M118 Unload finished\n"
+}

@@ -1,6 +1,6 @@
 {
   "manifest_version": "1",
-  "generated_at": 1775566223,
+  "generated_at": 1775571050,
   "macros": [
     {
       "vendor": "example",
@@ -313,6 +313,414 @@
       "path": "example/generic/UNLOAD_FILAMENT.json",
       "version": "2026-04-07",
       "checksum_sha256": "f39c7e1dc7d86e568fdd55fa72e7742594829a0108f0045555cf2965953076c3"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "_PEI_WIPE",
+      "path": "freedi/plus4/_PEI_WIPE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "8777c2471552da57894408d7fb8fc31607adf8e469cb6854b078c2a708c3bf38"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "_SILICON_WIPE",
+      "path": "freedi/plus4/_SILICON_WIPE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "8d61ba7b50e118cac14e3512db87f7e1dd42f08e027a75337d852b5f69eb56b7"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "_Z_CLEARANCE",
+      "path": "freedi/plus4/_Z_CLEARANCE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "8ddac40a9393ce31dc2e26d02c307a2d1b5cb7ff14981931888fed6a3125b3af"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "AUTO_LEVEL_BED",
+      "path": "freedi/plus4/AUTO_LEVEL_BED.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "b264b6e006a537bbe253100d59df5fa3641ec5df85a2705c77de6e7950cfe8ec"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "BED_PID_TUNE",
+      "path": "freedi/plus4/BED_PID_TUNE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "e2d1908b2bcecaa16770df8fbe0b1923a55a175fea2f8e6ac716f3cafef9afa4"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "BEEP",
+      "path": "freedi/plus4/BEEP.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "b32247405ae431beb7f37f6a6a67b5dfcac75a6bd163539913b73ca689647a09"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "beep_off",
+      "path": "freedi/plus4/beep_off.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "9866a3dea7a354d234261d1cfaa6b69bfac90757960adfaaa8d2d46a7791a561"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "beep_on",
+      "path": "freedi/plus4/beep_on.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a1de135e04de5d841abff697d95831d76e1436133f9a0631b6e45a7e4ca5af04"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "CALIBRATE_Z_OFFSET",
+      "path": "freedi/plus4/CALIBRATE_Z_OFFSET.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a1a3d02b87e88cf8fe6524f668d6446c196444bdfa9abc46287ffd004aa8efc6"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "CANCEL_PRINT",
+      "path": "freedi/plus4/CANCEL_PRINT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "ada1cc4d99b561c780418951dcb266a706144b00a7e88f991a7f92033b1a9b93"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "CHAMBER_TEMP_CONTROLLER",
+      "path": "freedi/plus4/CHAMBER_TEMP_CONTROLLER.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "9c29ddd98ee27f74615331527fe200735f391ec73adbacf7d0eb6efb5b6830e4"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "CUT_FILAMENT",
+      "path": "freedi/plus4/CUT_FILAMENT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "5f8dc10af06166334e7c5bbba0a739e680b19fbb8cb6eb16b5b7fd90b697e6eb"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "DISABLE_ALL_SENSOR",
+      "path": "freedi/plus4/DISABLE_ALL_SENSOR.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "6263a27ee5d470d758dd96550ae9675c4e6294d06677d5b2d0aa7cdd181d3a32"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "ENABLE_ALL_SENSOR",
+      "path": "freedi/plus4/ENABLE_ALL_SENSOR.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "21c1dd1c2c6229c2bd0b5ecda61369fe3ec73d0431aa5436e70a169334cbb17b"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "G28",
+      "path": "freedi/plus4/G28.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "70faad3b186348d136c3c15690c4c59ad42326287a50928f70be8d4f854eff8a"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "G29",
+      "path": "freedi/plus4/G29.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "06e179a5dcdd20df146fff55130cc42978ed4324d8cf7e57ce6c2bebb77f111c"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "GO_TO_POOP_SHOOT",
+      "path": "freedi/plus4/GO_TO_POOP_SHOOT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "930ee42087a3fd270e21f5d53b6e5c4c2f85214d5d3435fe1f9d47ac24e805b7"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "HOME_IF_NEEDED",
+      "path": "freedi/plus4/HOME_IF_NEEDED.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a91f5b2b5e14c4e11cd6e0f9e33def783e2707e3a7105be5cca07fe522599597"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "INPUT_SHAPING_CALIBRATE",
+      "path": "freedi/plus4/INPUT_SHAPING_CALIBRATE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "7f6ddf853b008bd35f043e2fe4ca1d5ad78a182d0251264faabfcb5431130eff"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "LEAVE_POOP_SHOOT",
+      "path": "freedi/plus4/LEAVE_POOP_SHOOT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "de911246eb2e5c833693197a037cda624b5c9b473929ee5781b360d38ff2656e"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "LEVEL_BED",
+      "path": "freedi/plus4/LEVEL_BED.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "57e60c7e8d0718488eb81b59b42e712d00e2c7df422cc517947ce724fe286d7d"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "LOAD_FILAMENT",
+      "path": "freedi/plus4/LOAD_FILAMENT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "97d72aa059b79d216c56e4845310819f652e2624f9aae39879b1ac68502edc69"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M0",
+      "path": "freedi/plus4/M0.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "d7f55a0ff49e5eb02d9f774eebd6e38a4a7ced65b6fccfdabcc43e5afd70a2f1"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M106",
+      "path": "freedi/plus4/M106.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "0581e41242970d02ac71413fb042eea056b89ff740d13a9ad58a3d0c05c7d41e"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M107",
+      "path": "freedi/plus4/M107.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "0f79e2879de6d7eb148c269ccc94d79f0d609a0f15639a54e622d4099d41a128"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M109",
+      "path": "freedi/plus4/M109.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a92ee04057a158e77d2572b9c0bfc4a0752a11563846c88b87883d51d60c148b"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M141",
+      "path": "freedi/plus4/M141.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "52a1000c4e544b11281a0011d7676120cc86d96200853c9240aba0901ba21639"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M191",
+      "path": "freedi/plus4/M191.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "87293cd006e953fc90c340baea5b4b99c2fc4c830292d92eff8f83978845d39f"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M204",
+      "path": "freedi/plus4/M204.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "e66fbad3e7a01c9164b39e0793daab71ca729b79baff03d1e2fd712321195fdc"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M25",
+      "path": "freedi/plus4/M25.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "cc98a5700b90088914f30869cce7ad9a65ff7c7ef190e4e3e5b421d5ffbe7afb"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M290",
+      "path": "freedi/plus4/M290.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "dfb541725238c809ea1d64ea91e0205f64ecc8155fdf12cc3386ec57a7509b22"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M303",
+      "path": "freedi/plus4/M303.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "571dc40d6c760b08e330a5bcc860e216e024a8f7e67d510aae8c85bdb50bbed2"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M603",
+      "path": "freedi/plus4/M603.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "f3b01bc3a6a8131966660b5a74f5af232f287a959be97631215f870cc3bc527d"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M604",
+      "path": "freedi/plus4/M604.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "5bbd4ac1c62340f47c39b6cde0ca33e5d84da6646398b755fc6f378bd869d8a0"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M8029",
+      "path": "freedi/plus4/M8029.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "d10dc3ccc28472e25938cc2b2ce58ff6c69f6a8fe67a63a361a76e150bc398bc"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "M900",
+      "path": "freedi/plus4/M900.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "3c3f1c126ae0b2f864171be026ec2b376de6af577476fe57b89cb52d5b9cb036"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "NEXT_PRINT_STATIC_MESH",
+      "path": "freedi/plus4/NEXT_PRINT_STATIC_MESH.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a92232903cf73000c0b335ecebd35affa0fe3431cc4c9d5f860bc081f83de7b4"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "NOZZLE_PID_TUNE",
+      "path": "freedi/plus4/NOZZLE_PID_TUNE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "a6469471125442821937a2ebfeb4983cb0c9cc83809c805fa38c966b72dbdc9d"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "PAUSE",
+      "path": "freedi/plus4/PAUSE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "e1dbbeda313ab5095969ea25b2250bda3fdefd66339b06e71bc953bbba73ac8d"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "PRESET_MACRO_1",
+      "path": "freedi/plus4/PRESET_MACRO_1.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "bf4f73e905f13a729b9c8f2574852d6641ca9a290b284e3a3b0e1730ccf8434d"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "PRESET_MACRO_2",
+      "path": "freedi/plus4/PRESET_MACRO_2.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "18bb4ba70e973b5c3ba3dd447c164a5f9017f4fe42430bb7547d60375037698b"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "PRESET_MACRO_3",
+      "path": "freedi/plus4/PRESET_MACRO_3.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "6cb20f5a0a0ab2d63f3693290d310cb36847e1717acab749719baa737b4df92b"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "PRESET_MACRO_4",
+      "path": "freedi/plus4/PRESET_MACRO_4.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "4dbcf219214a42e86d52b25d20c9c79a3634777e531b67246b252aa574d0134b"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "PRIME_NOZZLE",
+      "path": "freedi/plus4/PRIME_NOZZLE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "e38c53f4da56fa571b8a85c3b441fc3a68c752bb268fc48757ebb94e6d0f977f"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "PRINT_END",
+      "path": "freedi/plus4/PRINT_END.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "4ce28f89f36887d96d4544fee63810e4d6980f9572d907cdf5d14967d29618f2"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "PRINT_START",
+      "path": "freedi/plus4/PRINT_START.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "b6e0ca77f61d747ad2fa68dfae969128ec2b883c9781838b1d0d3a45d80022c7"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "RESUME",
+      "path": "freedi/plus4/RESUME.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "ae8d4d39789d458cdcbcb4afb7517ca4016512f8ebee233ba6cb2c442ac09860"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "SCREWS_TILT_CALCULATE",
+      "path": "freedi/plus4/SCREWS_TILT_CALCULATE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "8067e9df28422896425065e4fb15eac397184c13fdd0a8c3e5cde2e2fac427b2"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "SET_PRINT_STATS_INFO",
+      "path": "freedi/plus4/SET_PRINT_STATS_INFO.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "3a87fda41f70cd80bc88e6167ba22ad9eff96d10ca37cd5aed406975d1aa71d6"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "SHAPER_CALIBRATE",
+      "path": "freedi/plus4/SHAPER_CALIBRATE.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "0042dc70ff6480c3f12cb37eafbadb341f7770f9b91e41f5216daf5abb4887ee"
+    },
+    {
+      "vendor": "freedi",
+      "model": "plus4",
+      "macro_name": "UNLOAD_FILAMENT",
+      "path": "freedi/plus4/UNLOAD_FILAMENT.json",
+      "version": "2026-04-07",
+      "checksum_sha256": "dff902af78c6b4d21ab664cd13fe0f92908f58d9cace3b567a74bb334bfac3c0"
     }
   ]
 }

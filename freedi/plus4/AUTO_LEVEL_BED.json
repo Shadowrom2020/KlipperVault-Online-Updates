@@ -1,0 +1,6 @@
+{
+  "macro_name": "AUTO_LEVEL_BED",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-07",
+  "section_text": "[gcode_macro AUTO_LEVEL_BED]\ngcode:\n    {% set Z_max = printer.toolhead.axis_maximum.z %}\n    G28    \n    G1 Z{Z_max-30} F600\n    SET_TMC_CURRENT STEPPER=stepper_z CURRENT={printer.configfile.settings['tmc2209 stepper_z'].run_current * 0.5 }\n    SET_TMC_CURRENT STEPPER=stepper_z1 CURRENT={printer.configfile.settings['tmc2209 stepper_z1'].run_current * 0.5 }\n    G1 Z{Z_max} F600\n    SET_KINEMATIC_POSITION Z=0\n    G1 Z10 F600\n    G1 Z0 F600\n    G1 Z15 F600\n    SET_TMC_CURRENT STEPPER=stepper_z CURRENT={printer.configfile.settings['tmc2209 stepper_z'].run_current}\n    SET_TMC_CURRENT STEPPER=stepper_z1 CURRENT={printer.configfile.settings['tmc2209 stepper_z1'].run_current}\n    G28\n"
+}
