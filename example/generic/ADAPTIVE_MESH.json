@@ -1,0 +1,8 @@
+{
+  "vendor": "example",
+  "model": "generic",
+  "macro_name": "ADAPTIVE_MESH",
+  "version": "1.0.0",
+  "description": "Adaptive bed mesh calibration macro",
+  "gcode": "; Adaptive Bed Mesh Macro\n; vendor: example  model: generic  version: 1.0.0\n;\n; Performs a bed mesh calibration limited to the area actually used by the\n; current print, then loads the resulting mesh.  Requires the [bed_mesh]\n; section to be configured in printer.cfg.\n\n[gcode_macro ADAPTIVE_MESH]\ndescription: Calibrate bed mesh for the current print area\ngcode:\n    {% set min_x = printer.toolhead.axis_minimum.x %}\n    {% set min_y = printer.toolhead.axis_minimum.y %}\n    {% set max_x = printer.toolhead.axis_maximum.x %}\n    {% set max_y = printer.toolhead.axis_maximum.y %}\n\n    ; Use object area if available, fall back to full bed\n    {% if printer.exclude_object is defined and printer.exclude_object.objects | length > 0 %}\n        {% set all_points = printer.exclude_object.objects | map(attribute='polygon') | sum(start=[]) %}\n        {% set mesh_min_x = (all_points | map(attribute=0) | min) | float %}\n        {% set mesh_min_y = (all_points | map(attribute=1) | min) | float %}\n        {% set mesh_max_x = (all_points | map(attribute=0) | max) | float %}\n        {% set mesh_max_y = (all_points | map(attribute=1) | max) | float %}\n    {% else %}\n        {% set mesh_min_x = min_x %}\n        {% set mesh_min_y = min_y %}\n        {% set mesh_max_x = max_x %}\n        {% set mesh_max_y = max_y %}\n    {% endif %}\n\n    BED_MESH_CALIBRATE MESH_MIN={mesh_min_x},{mesh_min_y} MESH_MAX={mesh_max_x},{mesh_max_y}\n    BED_MESH_PROFILE LOAD=default\n"
+}
