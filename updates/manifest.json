@@ -1,6 +1,6 @@
 {
   "manifest_version": "1",
-  "generated_at": 1775668091,
+  "generated_at": 1775669789,
   "macros": [
     {
       "vendor": "example",
@@ -65,14 +65,6 @@
       "path": "example/generic/CHAMBER_TEMP_CONTROLLER.json",
       "version": "2026-04-07",
       "checksum_sha256": "afd733375ccdaa131008f64e827b1d23100f1f9d09c17d48878181d009bce292"
-    },
-    {
-      "vendor": "example",
-      "model": "generic",
-      "macro_name": "CONDITIONAL_SHUTDOWN",
-      "path": "example/generic/CONDITIONAL_SHUTDOWN.json",
-      "version": "2026-04-07",
-      "checksum_sha256": "f00ec4c1cbc44415dd9f101b47c280139ff7a573cb9024c16c52061296fc4d41"
     },
     {
       "vendor": "example",
