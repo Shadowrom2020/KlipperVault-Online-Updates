@@ -1,6 +1,6 @@
 {
   "macro_name": "SHUTDOWN",
   "source_file_path": "macros.cfg",
-  "version": "2026-04-07",
+  "version": "2026-04-08",
   "section_text": "[gcode_macro SHUTDOWN]\ngcode:\n  {action_call_remote_method(\"shutdown_machine\")}\n"
 }
