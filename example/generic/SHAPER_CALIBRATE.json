@@ -1,6 +1,6 @@
 {
   "macro_name": "SHAPER_CALIBRATE",
   "source_file_path": "macros.cfg",
-  "version": "2026-04-07",
+  "version": "2026-04-08",
   "section_text": "[gcode_macro SHAPER_CALIBRATE]\nrename_existing: RESHAPER_CALIBRATE\ngcode:\n    RESHAPER_CALIBRATE FREQ_START=30 FREQ_END=130\n"
 }
