@@ -1,6 +1,6 @@
 {
   "macro_name": "M191",
   "source_file_path": "macros.cfg",
-  "version": "2026-04-07",
+  "version": "2026-04-08",
   "section_text": "[gcode_macro M191]\ngcode:\n    #Parameters\n    {% set chamber_target_temp = params.S|float %}\n\n    {% if chamber_target_temp == 0 %}\n        M118 Chamber heater off\n    {% else %}\n        M141 S{chamber_target_temp}\n        TEMPERATURE_WAIT SENSOR=\"heater_generic chamber\" MINIMUM={([chamber_target_temp, 60]|min)-2} MAXIMUM={chamber_target_temp + 5}  \n        M118 Chamber at target temperature\n    {% endif %}\n"
 }
