@@ -1,6 +1,6 @@
 {
   "macro_name": "M107",
   "source_file_path": "macros.cfg",
-  "version": "2026-04-07",
+  "version": "2026-04-08",
   "section_text": "[gcode_macro M107]\nrename_existing: M107.1\ngcode:\n    M106.1 S0\n"
 }
