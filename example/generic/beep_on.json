@@ -1,6 +1,6 @@
 {
   "macro_name": "beep_on",
   "source_file_path": "macros.cfg",
-  "version": "2026-04-07",
+  "version": "2026-04-08",
   "section_text": "[gcode_macro beep_on]\ngcode:\n    SET_PIN PIN=buzzer VALUE=1\n"
 }

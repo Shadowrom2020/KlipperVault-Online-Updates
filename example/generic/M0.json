@@ -1,6 +1,6 @@
 {
   "macro_name": "M0",
   "source_file_path": "macros.cfg",
-  "version": "2026-04-07",
+  "version": "2026-04-08",
   "section_text": "[gcode_macro M0]\ngcode:\n    PAUSE\n"
 }

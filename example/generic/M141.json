@@ -1,6 +1,6 @@
 {
   "macro_name": "M141",
   "source_file_path": "macros.cfg",
-  "version": "2026-04-07",
+  "version": "2026-04-08",
   "section_text": "[gcode_macro M141]\ngcode:\n    {% if printer[\"heater_generic chamber\"] is defined %}\n        {% set chamber_target_temp = params.S|float %}\n        SET_HEATER_TEMPERATURE HEATER=chamber TARGET={([chamber_target_temp, 65]|min)}\n    {% endif %}\n"
 }

@@ -1,6 +1,6 @@
 {
   "macro_name": "POWER_OFF_PRINTER",
   "source_file_path": "macros.cfg",
-  "version": "2026-04-07",
+  "version": "2026-04-08",
   "section_text": "[gcode_macro POWER_OFF_PRINTER]\ngcode:\n  {action_call_remote_method(\"set_device_power\",\n    device=\"Printer\",\n    state=\"off\")}\n"
 }

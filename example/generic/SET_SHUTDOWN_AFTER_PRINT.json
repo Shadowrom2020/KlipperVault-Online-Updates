@@ -1,6 +1,6 @@
 {
   "macro_name": "SET_SHUTDOWN_AFTER_PRINT",
   "source_file_path": "macros.cfg",
-  "version": "2026-04-07",
+  "version": "2026-04-08",
   "section_text": "[gcode_macro SET_SHUTDOWN_AFTER_PRINT]\nvariable_shutdown: 0\ngcode:\n  {% set enable = params.ENABLE|default(1)|int %}\n  {% if enable %}\n    SET_GCODE_VARIABLE MACRO=SET_SHUTDOWN_AFTER_PRINT VARIABLE=shutdown VALUE=1\n    M118 \"Shutdown on print complete: ON\"\n  {% else %}\n    SET_GCODE_VARIABLE MACRO=SET_SHUTDOWN_AFTER_PRINT VARIABLE=shutdown VALUE=0\n    M118 \"Shutdown on print complete: OFF\"\n  {% endif %}\n"
 }
