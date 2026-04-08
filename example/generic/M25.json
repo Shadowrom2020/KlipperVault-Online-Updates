@@ -1,6 +1,6 @@
 {
   "macro_name": "M25",
   "source_file_path": "macros.cfg",
-  "version": "2026-04-07",
+  "version": "2026-04-08",
   "section_text": "[gcode_macro M25]\nrename_existing: M9925\ngcode:\n    PAUSE\n"
 }
