@@ -1,6 +1,6 @@
 {
   "manifest_version": "1",
-  "generated_at": 1775571050,
+  "generated_at": 1775668091,
   "macros": [
     {
       "vendor": "example",
@@ -23,8 +23,8 @@
       "model": "generic",
       "macro_name": "BEEP",
       "path": "example/generic/BEEP.json",
-      "version": "2026-04-07",
-      "checksum_sha256": "8afcdc525badf70d453142cc739a2bf797cd23c067b4df144ab0dbdc0b36842e"
+      "version": "2026-04-08",
+      "checksum_sha256": "09db2d02c6adae17240e30e5711de7238eea0729b50ab6d35dafa6f6edc685a2"
     },
     {
       "vendor": "example",
@@ -87,8 +87,8 @@
       "model": "generic",
       "macro_name": "G29",
       "path": "example/generic/G29.json",
-      "version": "2026-04-07",
-      "checksum_sha256": "8671d6b56a28422bd818859fc8b45789e1bed5809efaba751bacce4b6f55de41"
+      "version": "2026-04-08",
+      "checksum_sha256": "f2b2d7170749927436b6fa7a85487f4e8cbd2e51fae18067b0af8919bc25134c"
     },
     {
       "vendor": "example",
@@ -207,8 +207,8 @@
       "model": "generic",
       "macro_name": "M900",
       "path": "example/generic/M900.json",
-      "version": "2026-04-07",
-      "checksum_sha256": "3c3f1c126ae0b2f864171be026ec2b376de6af577476fe57b89cb52d5b9cb036"
+      "version": "2026-04-08",
+      "checksum_sha256": "caf778d2066627376aac81e40d514e20092195ba3f980d46624cfd635211759e"
     },
     {
       "vendor": "example",
