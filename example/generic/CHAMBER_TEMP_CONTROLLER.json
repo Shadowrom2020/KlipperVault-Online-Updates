@@ -1,6 +1,6 @@
 {
   "macro_name": "CHAMBER_TEMP_CONTROLLER",
   "source_file_path": "macros.cfg",
-  "version": "2026-04-07",
+  "version": "2026-04-08",
   "section_text": "[gcode_macro CHAMBER_TEMP_CONTROLLER]\ngcode:\n    {% set chamber_target_temp = printer['heater_generic chamber'].target %}\n    {% set chamber_temp = printer['heater_generic chamber'].temperature %}\n    {% set bad_filaments = ['ASA-CF', 'ASA', 'ABS'] %}\n    {% set filament = printer[\"gcode_macro SET_FILAMENT_TYPE\"].filament_type %}   \n    {% if chamber_temp > printer.configfile.settings['heater_generic chamber'].max_temp %}\n        M106 P3 S255\n    {% else %}\n        {% if chamber_target_temp > 0 %}\n            # Allow for 3C of \"grace\" before we start ramping the exhaust fan speed\n            # This prevents the macro from fighting with the chamber heater PID algorithm\n            {% set difference = chamber_temp - (chamber_target_temp + 3) %}\n            {% if difference > 0 %}\n                {% set filterfan_speed = ([(difference * 50), 255] | min) | int %}\n                M106 P3 S{filterfan_speed}\n            {% else %}\n                {% if filament in bad_filaments %}\n                  M106 P3 S255\n                {% else %}\n                  M106 P3 S0\n                {% endif %}\n            {% endif %}\n        {% endif %}\n    {% endif %}\n"
 }
