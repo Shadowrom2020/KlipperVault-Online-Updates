@@ -1,0 +1,6 @@
+{
+  "macro_name": "M106",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-23",
+  "section_text": "[gcode_macro M106]\ngcode:\n    {% if params.P is defined %}\n      {% if params.S is defined %}\n        SET_PIN PIN=fan{params.P|int} VALUE={params.S|int}\n      {% else %}\n        SET_PIN PIN=fan{params.P|int} VALUE=255\n      {% endif %}\n    {% endif %} \n\n    {% if params.T is defined %}\n        {% if (params.T|int)==-2 %}\n          {% if params.S is defined %}       \n            SET_PIN PIN=fan1 VALUE={params.S|int}\n          {% else %}\n            SET_PIN PIN=fan1 VALUE=255\n          {% endif %}\n        {% endif %}\n    {% endif %}\n\n    {% if params.P is undefined %}\n    {% if params.T is undefined %}\n    {% if params.S is defined %}\n            SET_PIN PIN=fan0 VALUE={params.S|int}\n       {% else %}\n            SET_PIN PIN=fan0 VALUE=255       \n    {% endif %}\n    {% endif %}\n    {% endif %}\n"
+}

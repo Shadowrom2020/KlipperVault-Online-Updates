@@ -1,0 +1,6 @@
+{
+  "macro_name": "M1029",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-23",
+  "section_text": "[gcode_macro M1029]\ngcode:\n    X_TWIST_PROFILE_LOAD NAME=default\n    X_TWIST_COMPENSATE_MESH MESH_NAME=default COMPENSATION_NAME=default\n"
+}

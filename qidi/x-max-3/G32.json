@@ -1,0 +1,6 @@
+{
+  "macro_name": "G32",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-23",
+  "section_text": "[gcode_macro G32]\ngcode:\n    BED_MESH_CLEAR\n    G28\n    QUAD_GANTRY_LEVEL\n    G28\n"
+}

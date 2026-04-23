@@ -1,0 +1,6 @@
+{
+  "macro_name": "M303",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-23",
+  "section_text": "[gcode_macro M303]\ngcode:\n    {% if params.E is defined %}\n     {% if params.S is defined %}\n        {% if (params.E|int)==-1 %} \n         PID_CALIBRATE HEATER=heater_bed TARGET={params.S|int}\n        {% endif %}\n        {% if (params.E|int)==0 %}\n         PID_CALIBRATE HEATER=extruder TARGET={params.S|int}\n        {% endif %}\n     {% endif %}\n  {% endif %}\n"
+}

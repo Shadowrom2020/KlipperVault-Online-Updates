@@ -1,0 +1,6 @@
+{
+  "macro_name": "G30",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-23",
+  "section_text": "[gcode_macro G30]\ngcode:\n    BED_MESH_CLEAR      #清除调平数据\n#    G28 \n    BED_MESH_CALIBRATE mesh_min=10,10  mesh_max=265,265  METHOD=manual #手动动调平\n"
+}

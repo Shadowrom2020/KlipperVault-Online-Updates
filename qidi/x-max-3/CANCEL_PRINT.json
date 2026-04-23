@@ -1,0 +1,6 @@
+{
+  "macro_name": "CANCEL_PRINT",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-23",
+  "section_text": "[gcode_macro CANCEL_PRINT]\nrename_existing: BASE_CANCEL_PRINT\ngcode:\n    SET_IDLE_TIMEOUT TIMEOUT={printer.configfile.settings.idle_timeout.timeout} ; set timeout back to configured value\n    CLEAR_PAUSE\n    SDCARD_RESET_FILE\n\n    {% if (printer.gcode_move.position.z) < printer.toolhead.axis_maximum.z-20 %}       ; check that zhop doesn't exceed z max\n\n        G1 Z{printer.toolhead.axis_maximum.z-20} F900                                         \n\n    {% endif %}\n    G1  X0 Y0 F12000\n    M107\n\n    PRINT_END\n    BASE_CANCEL_PRINT\n"
+}
