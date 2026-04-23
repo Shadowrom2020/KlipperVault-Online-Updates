@@ -1,0 +1,6 @@
+{
+  "macro_name": "M900",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-23",
+  "section_text": "[gcode_macro M900]\ngcode:\n   SET_PRESSURE_ADVANCE ADVANCE={params.K}\n   SET_PRESSURE_ADVANCE SMOOTH_TIME={params.T}\n"
+}

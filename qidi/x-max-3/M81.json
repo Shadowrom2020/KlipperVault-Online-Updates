@@ -1,0 +1,6 @@
+{
+  "macro_name": "M81",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-23",
+  "section_text": "[gcode_macro M81]\ndescription: PowerOff\ngcode:\n  M84\n  SET_PIN PIN=pwc VALUE=0\n"
+}

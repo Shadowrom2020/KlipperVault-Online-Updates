@@ -1,0 +1,6 @@
+{
+  "macro_name": "BEEP",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-23",
+  "section_text": "[gcode_macro BEEP]\ngcode:\n    # Parameters\n    {% set i = params.I|default(1)|int %}        ; Iterations (number of times to beep).\n    {% set dur = params.DUR|default(100)|int %}  ; Duration/wait of each beep in ms. Default 100ms.\n\n    {% if printer[\"output_pin sound\"].value|int == 1 %}\n        {% for iteration in range(i|int) %}\n            SET_PIN PIN=beeper VALUE=1\n            G4 P{dur}\n            SET_PIN PIN=beeper VALUE=0\n    \t\tG4 P{dur}\n        {% endfor %}\n    {% endif %}\n"
+}

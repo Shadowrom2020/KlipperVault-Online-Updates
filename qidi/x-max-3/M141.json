@@ -1,0 +1,6 @@
+{
+  "macro_name": "M141",
+  "source_file_path": "macros.cfg",
+  "version": "2026-04-23",
+  "section_text": "[gcode_macro M141]\ngcode:\n      SET_HEATER_TEMPERATURE HEATER=hot TARGET={params.S}\n"
+}

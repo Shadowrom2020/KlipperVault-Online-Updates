@@ -1,6 +1,6 @@
 {
   "manifest_version": "1",
-  "generated_at": 1775669836,
+  "generated_at": 1776924999,
   "macros": [
     {
       "vendor": "example",
@@ -1969,6 +1969,206 @@
       "path": "freedi/x-smart3/UNLOAD_FILAMENT.json",
       "version": "2026-04-07",
       "checksum_sha256": "a395d632d53e97ad25d2ea752fd2e576b98df6436d1196afab8181e43947080e"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "BEEP",
+      "path": "qidi/x-max-3/BEEP.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "4c711e6261e81671c3c8e5280e884e41b3510754b9298360c1ac06134e092ad0"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "beep_off",
+      "path": "qidi/x-max-3/beep_off.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "7d58aaa31c0bc2eec85f0ee9959216548da3479961d15419e892806b191b7adc"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "beep_on",
+      "path": "qidi/x-max-3/beep_on.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "792bd837eb7d399d031e2386263eef99b141bbd4f4a22902fe438b0e01542edb"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "CANCEL_PRINT",
+      "path": "qidi/x-max-3/CANCEL_PRINT.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "73bfafb09a284bca9b4d733446527120f4233c2659ee546e99d3377e4179066b"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "G29",
+      "path": "qidi/x-max-3/G29.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "ff926451f4efe4bcb38b5ad7b19ab9180e2a6c4bfe28eb5c51474a4916cc3ce9"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "G30",
+      "path": "qidi/x-max-3/G30.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "60bc0a233d5fa8d4eca9a2c7539f2cca21df261f412fbfd25449d0b01b2fa107"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "G32",
+      "path": "qidi/x-max-3/G32.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "b33dd46c4f1facd99b284c90b117747e4ccd1dd070bfced4e8facc769e8d1a2e"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "M0",
+      "path": "qidi/x-max-3/M0.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "bff6a62af5f5d338393085a7330f696fe74e4fec1f1979b805b3ac4691a828d2"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "M1029",
+      "path": "qidi/x-max-3/M1029.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "8f1b84a15b87df1f66f20e15797f3a6d81e971d8c4fd9064bb15ac22de8de138"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "M106",
+      "path": "qidi/x-max-3/M106.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "3d1b0ac506f5b8cb8722e86e8b0abd96f59786c63abaaa29049f961bab90ffe8"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "M107",
+      "path": "qidi/x-max-3/M107.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "747f792372d60922ac16323b1232b8e4e1fda3febe23ee9678ec964997cc87e4"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "M109",
+      "path": "qidi/x-max-3/M109.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "563d73b374ec0378b041067bdba288d4d20eed6ea268d7302abb9ba078fbdb40"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "M141",
+      "path": "qidi/x-max-3/M141.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "27119adf02da0611198f48868e843e7c32cdeca1bbcc630cef878976b70a1379"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "M290",
+      "path": "qidi/x-max-3/M290.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "dfb541725238c809ea1d64ea91e0205f64ecc8155fdf12cc3386ec57a7509b22"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "M303",
+      "path": "qidi/x-max-3/M303.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "571dc40d6c760b08e330a5bcc860e216e024a8f7e67d510aae8c85bdb50bbed2"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "M8029",
+      "path": "qidi/x-max-3/M8029.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "a341a712779bc32ee2accb17448248ff429455a871f42853d8dbbbb25c740f6d"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "M81",
+      "path": "qidi/x-max-3/M81.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "137e19fff94feed20f518b373e59ee23cf90d4aab68d4b2174a1d1698ddf2c9d"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "M84",
+      "path": "qidi/x-max-3/M84.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "8cf7d1f82a92882b381e5ec067719923f007acc802e03ea5e3c7fd0dfc9c5e25"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "M900",
+      "path": "qidi/x-max-3/M900.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "24bc8ab9b6fc23074f45c80ac394e09bca1c4ca2af7012d6f4b9c8322df5b7bc"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "M901",
+      "path": "qidi/x-max-3/M901.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "ca97035a9566afd5b11679bfb8a9c618b4a14b4dc3dd80aca9a6c2bb3f5385bb"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "PAUSE",
+      "path": "qidi/x-max-3/PAUSE.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "95aac8de4f1787bff43fe23b767127f605dfa2a08dc4bd4199b0a6c749ea3352"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "PRINT_END",
+      "path": "qidi/x-max-3/PRINT_END.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "eea4f0a1f6ddb3b6a04fc59ba4970a97df8d51244a0fe3ac62d92a4161d781bb"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "PRINT_END_POWEROFF",
+      "path": "qidi/x-max-3/PRINT_END_POWEROFF.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "a6d1f02becb44cdc6fdcf93fe4c8066855c706cef5d7ce160fe2202d9f9fa356"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "RESUME",
+      "path": "qidi/x-max-3/RESUME.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "8daf259fd210697f4f4ed80c2bede2c32a02094215fd1cf48eb1ae7c43d40bd8"
+    },
+    {
+      "vendor": "qidi",
+      "model": "x-max-3",
+      "macro_name": "SHAPER_CALIBRATE",
+      "path": "qidi/x-max-3/SHAPER_CALIBRATE.json",
+      "version": "2026-04-23",
+      "checksum_sha256": "cb02cec4651375cf8e42245430d01b390c9eb65c79c88c21d40bc79e5d199695"
     }
   ]
 }
